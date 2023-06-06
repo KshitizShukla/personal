@@ -1,0 +1,115 @@
+header{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    margin: 0;
+}
+nav ul{
+    margin: 0;
+
+
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+body{
+    background-color: rgba(0, 79, 251, 0.523);
+}
+main{
+    background-color: #ffffff;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+.intro{
+    background-color: #313131;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.blogstart{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.blogs{
+    display: flex;
+    justify-content:space-around;
+    
+    font-size: x-small;
+    font-style: inherit;
+    text-align:justify center;
+}
+.blog1{
+    height: 220px;
+    width: 180px;
+}
+img{
+    
+    height: 441px;
+    width: 380px;
+    animation-name: image_an;
+    animation-duration: 3s;
+}
+nav button{
+    border-radius: 5px;
+    font-size:medium;
+    background-color: #189100;
+}
+@keyframe image_an {
+    form{top: 0px;background-color: #333;}
+    to{top: 200px;background-color: #000000;}
+}
+a{
+    text-decoration: solid;
+    color: #ffffff;
+}
+footer{
+    background-color: #333;
+}
+.red{
+    border-radius: 100px;
+    font-size: xx-small;
+    background-color: red;
+    color: red;
+    
+}
+.green{
+    border-radius: 100px;
+    font-size: xx-small;
+    background-color: rgb(14, 145, 5);
+   border-color: none;
+}
+.yellow{
+    border-radius: 100px;
+    font-size: xx-small;
+    background-color: rgb(255, 213, 0);
+   
+}
+.white{
+    border-radius: 100px;
+    font-size: xx-small;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255)
+}
+.pink{
+    border-radius: 100px;
+    font-size: xx-small;
+    background-color: rgb(230, 26, 179);
+    color: rgb(230, 26, 179);
+}

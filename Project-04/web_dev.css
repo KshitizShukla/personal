@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(1, 37, 31);
+    background-blend-mode: darken;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+}
+.content{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content ul li a{
+    text-decoration: none;
+    color: white;
+}
+.btn button{
+    margin-top: 15px;
+    height: 30px;
+    width: 70px;
+    background:transparent;
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
+.part2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.part2_1{
+    color:white;
+    margin-top: 0;
+}
+.part2_1 h2{
+    color: rgb(0, 255, 170);
+}
+.part2_1 h3{
+    color: rgb(255, 213, 0);
+}
+.part2_1 button{
+    height: 40px;
+    width: 80px;
+    border-radius: 2px;
+    border: 1px;
+    color: white;
+    background-color: rgb(0, 82, 176);
+}
+.img2 img{
+    height: 350px;
+    opacity: 90%;
+}
+.content ul li a:hover{
+    color: yellow;
+}
+.btn button a:hover{
+    color: yellow;
+}
+.part2_1 button a{
+    text-decoration: none;
+    color: white;
+}
+.part2_1 button a:hover{
+    color: rgb(0, 255, 200);
+}

@@ -1,0 +1,15 @@
+table{
+    border: 2px;
+}
+.signup{
+    align-items: center;
+}
+.signfrm{
+    background-color: rgb(204, 106, 106);
+    align-items: center;
+    margin-left: 250px;
+}
+body{
+    align-items: center;
+    display: flex;
+}

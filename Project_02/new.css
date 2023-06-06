@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    color: whitesmoke;
+}
+header{
+    background-color: #083949;
+    display: flex;
+    justify-content: space-between;
+    border-style:outset;
+
+}
+.logo{
+    height: 40px;
+    margin:  7px;
+}
+.head_nav0 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+}
+.head_nav0 ul li a:hover{
+    color: red;
+}
+.head_nav0 ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.head_nav0{
+    display: flex;
+    margin: 0 5px;
+}
+nav button{
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: black;
+    background-color: transparent;
+    color: whitesmoke;
+    height: 50px;
+    width: 80px;
+}
+main{
+    background-color: #032834;
+    border: solid 3px;
+    margin: 5px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.Intro{
+    text-align: justify;
+    display: flex;
+    font-size: medium;
+    margin: 5px;
+}
+.body_builder{
+    height: 300px;
+    margin: 10px;
+    border: nones ;
+}
+.sec2{
+    border-top: solid 6px rgb(41, 41, 41);
+    margin-top: 15px;
+    margin: 5px;
+}
+.services ul{
+    text-align: justify;
+    display: flex;
+    list-style: none;
+    font-size: larger;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.services ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.services ul li a:hover{
+    color: crimson;
+}
+.quick_reads{
+    border-top: solid 6px rgb(41, 41, 41);
+    margin: 0 5px;
+}
+.advs{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 0 5px;
+
+}
+.adv_01{
+    border: solid 2px;
+    margin: 0 5px;
+    
+}
+
+.adv_02{
+    border: solid 2px;
+    margin: 0 5px;
+}
+
+.adv_03{
+    border: solid 2px;
+    margin: 0 5px;
+}
+footer{
+    background-color: #083949;
+    margin: 0 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot_nav1 ul{
+    list-style: none;
+}
+.foot_nav1 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.foot_nav2 ul{
+    list-style: none;
+}
+address{
+    text-align:justify;
+    font-size: large;
+    margin: 5px;
+}
+footer{
+    border: outset 3px ;
+    margin-top: 20px;
+}
+.join{
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background:transparent;
+    border: groove 1px whitesmoke;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+.join a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: rgb(255, 64, 0);
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal || Home</title>
+    <link rel="stylesheet" href="Gym.css">
+</head>
+<body>
+    <header>
+        <nav class="head_nav0">
+            <a href="Gym.html"><img src="Logo.png" alt="ETERNAL" class="logo"></a>
+        </nav>
+        <nav class="head_nav0">
+            <ul>
+                <li><a href="Gym.html">Home &nbsp</a> </li>
+                <li> <a href="#">Products &nbsp</a> </li>
+                <li> <a href="#">Services &nbsp</a> </li>
+                <li> <a href="#">About &nbsp</a> </li>
+                <li> <a href="#">Contact &nbsp</a> </li>
+            </ul>
+        </nav>
+        <nav>
+            <button>LOGIN</button>
+            <button>SIGN-UP</button>
+        </nav>
+    </header>
+    <main>
+        <h2 style="margin: 5px;">About ETERNAL</h2>
+        <section class="Intro" id="Intro">
+            
+            <p style="margin: 5px;">Eternal is a dynamic and cutting-edge website designed specifically for gym enthusiasts. 
+                With its sleek and modern interface, Eternal aims to revolutionize the fitness industry by providing a comprehensive platform that caters to all aspects of a gym-goer's journey. 
+                Whether you're a beginner looking for workout routines and nutrition tips, or an experienced athlete seeking advanced training programs and personalized coaching, Eternal has you covered. 
+                The website features a vast library of exercise demonstrations, expert advice from renowned fitness professionals, and an interactive community where users can connect, share their progress, and find motivation. 
+                Eternal's user-friendly design ensures easy navigation and accessibility, making it a go-to resource for individuals seeking to achieve their fitness goals. With its innovative features and commitment to excellence, 
+                Eternal is set to become the go-to online destination for gym enthusiasts worldwide.
+                <br><button class="join"><a href="#"> Join</a></button>
+            </p>
+                <img src="Gym.png" alt="Body Builder" class="body_builder">
+        </section>
+        <!--<section class="sec2">
+                <h2>Services</h2>
+                <div class="services">
+                    <ul>
+                    <li><a href="#"> Group Fitness Classes</a></li>
+                    <li><a href="#">Muscle Building</a></li>
+                    <li><a href="#">Cardio</a></li>
+                    <li><a href="#">Sports Activities</a></li>
+                    <li><a href="#">Social Events</a></li>
+                    <li><a href="#">Steam Rooms</a></li>
+                    <li><a href="#">Fitness Assesments</a></li>
+                    </ul>
+                </div>
+        </section>
+        <section class="quick_reads">
+            <h2>Quick Reads</h2>
+            <div class="advs">
+                <div class="adv_01">
+                    <p>“If you think lifting is dangerous, try being weak. Being weak is dangerous.”</p>
+                    <caption> Bret Contreras</caption>
+                </div>
+                <div class="adv_02">
+                    <p>“Bodybuilding is much like any other sport. To be successful, you must dedicate yourself 100% to your training, diet and mental approach.”</p>
+                    <caption>Arnold Schwarzenegger</caption>
+                </div>
+                <div class="adv_03">
+                    <p>“The successful warrior is the average man, with laser-like focus.”</p>
+                    <caption>Bruce Lee</caption>
+                </div>
+               
+            </div>
+            <br>
+        </section>-->
+    </main>
+    <footer>
+            <nav class="foot_nav1">
+                <ul>
+                    <li><a href=""> About Us</a></li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Careers</li>
+                </ul>
+            </nav>
+            <nav class="foot_nav2">
+                <ul>
+                    <li>FAQs</li>
+                    <li>Contact Us</li>
+                    <li>Event Gallery</li>
+                </ul>
+            </nav>
+            <div>
+                <address>
+                    208001- Bada Chauraha,<br>
+                    Kanpur, Uttar Pradesh <br> INDIA
+                </address>
+            </div>
+    </footer>
+</body>
+</html>
